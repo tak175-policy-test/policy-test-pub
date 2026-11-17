@@ -1,3 +1,3 @@
-// Test fixture. The value below is made up and opens nothing.
-let password = "CpdUKSZSGmqM3eFG0FDX";
+// Test fixture.
+const password = process.argv[2] ?? "";
 export const ready = password.length > 0
